@@ -1,9 +1,9 @@
 
     # Project Name:
-    Cath
+    Shindig
 
     ## License Type
-    MIT License
+    None
 
 
     ## Table of Contents
@@ -16,23 +16,23 @@
     
 
     ## Description
-    jgkjgkjg
+    An online platform where users can search for events in their area
 
     ## Installation Instructions
-    jgkjgkjg
+    Use your browswer to reach the site
 
     ## Project Usage
-    jkgjgkjg
+    The page can be used at different screen sizes and on a variety of browsers
 
     ## Contribution Guidelines
-    jkgjkgjg
+    NA
 
     ## Test Instructions
-    kgkgjg
+    NA
 
     ## Questions
-        # Please reach out to me with additional questions via email or check out my Github page
-    kgkgjkg
+        # Please reach out to me with additional questions via email or check out my Github page (as shown below)
+    catherinemcneel@icloud.com
     undefined
     
     
