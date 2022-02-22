@@ -95,7 +95,7 @@ const generateMarkdown = (userInput) => {
     ${userInput.TestInstructions}
 
     ## Questions
-        # Please reach out to me with additional questions via email or check out my Github page
+        # Please reach out to me with additional questions via email or check out my Github page (as shown below)
     ${userInput.email}
     ${userInput.Github}
     
