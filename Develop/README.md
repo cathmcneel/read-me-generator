@@ -16,13 +16,13 @@
     
 
     ## Description
-    An online platform where users can search for events in their area
+    Shindig is a website that allows the user to search for events near them
 
     ## Installation Instructions
-    Use your browswer to reach the site
+    use the browser to access shindig
 
     ## Project Usage
-    The page can be used at different screen sizes and on a variety of browsers
+    Can be used on Mobile/Desktop devices and on multiple browsers
 
     ## Contribution Guidelines
     NA
