@@ -14,5 +14,5 @@
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
-![This is an image](./Boot-Camp/Challenges/read-me-generator/Develop/assets/ReadMeImage.png)
+![This is an image](Develop/assets/ReadMeImage.png)
 
