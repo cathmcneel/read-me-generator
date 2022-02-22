@@ -14,5 +14,6 @@
 
 This site was built using [GitHub Pages](https://github.com/cathmcneel/read-me-generator).
 
-![This is an image](Develop/assets/ReadMeImage.png)
+![Example Image](Develop/assets/ReadMeImage.png)
 
+Link to Video Walkthrough (Develop/assets/ReadMeImage.png) 
