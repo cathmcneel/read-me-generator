@@ -12,7 +12,6 @@
 
 ### SEE BELOW: An example of a Read ME a user can create
 
-This site was built using [GitHub Pages](https://pages.github.com/).
+This site was built using [GitHub Pages](https://github.com/cathmcneel/read-me-generator).
 
-![This is an image](./Boot-Camp/Challenges/read-me-generator/Develop/assets/ReadMeImage.png)
 
