@@ -8,11 +8,11 @@ const promptUser = () => {
       {
         type: 'input',
         name: 'name',
-        message: 'What is your name?',
+        message: 'What is the project name?',
       },
       {
         type: 'input',
-        name: 'description',
+        name: 'Description',
         message: 'Provide a description of the project',
       },
       {
@@ -24,6 +24,16 @@ const promptUser = () => {
         type: 'input',
         name: 'ProjectUsage',
         message: 'Provide information about the project usage',
+      },
+      {
+        type: 'input',
+        name: 'ContributionGuidelines',
+        message: 'Please provide the contribution guidelines for your project',
+      },
+      {
+        type: 'input',
+        name: 'TestInstructions',
+        message: 'Please provide the test instructions for your project',
       },
       {
         type: 'input',
@@ -50,15 +60,62 @@ const promptUser = () => {
 
     ])};
 
+const generateMarkdown = (userInput) => {
+    
+    return `
+    # Project Name:
+    ${userInput.name}
+
+    ## License Type
+    ${userInput.license}
+
+
+    ## Table of Contents
+    - [Description](#Description) 
+    - [InstallationInstructions](#InstallationInstructions)
+    - [ProjectUsage](#ProjectUsage)
+    - [ContributionGuidelines](#ContributionGuidelines)
+    - [TestInstructions](#TestInstructions)
+    - [Questions](#Questions)
+    
+
+    ## Description
+    ${userInput.Description}
+
+    ## Installation Instructions
+    ${userInput.InstallationInstructions}
+
+    ## Project Usage
+    ${userInput.ProjectUsage}
+
+    ## Contribution Guidelines
+    ${userInput.ContributionGuidelines}
+
+    ## Test Instructions
+    ${userInput.TestInstructions}
+
+    ## Questions
+        # Please reach out to me with additional questions via email or check out my Github page
+    ${userInput.email}
+    ${userInput.Github}
+    
+    `
+}
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = (markdown) => {
+    //write output to README.md file
+    fs.writeFile('README.md', markdown, (error) =>
+    error ? console.log('Error!') : console.log('Success!'));  //error handling is a required argument
+}
 
 // TODO: Create a function to initialize app
 function init() {
     promptUser ()
         .then((userInput)=>{
-            console.log(userInput)
+            const markdown = generateMarkdown(userInput)
+            writeToFile(markdown)
         })
 }
 
