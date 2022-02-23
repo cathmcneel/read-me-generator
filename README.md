@@ -12,8 +12,11 @@
 
 ### SEE BELOW: An example of a Read ME a user can create
 
-This site was built using [GitHub Pages](https://github.com/cathmcneel/read-me-generator).
+[Link to Github Repository](https://github.com/cathmcneel/read-me-generator).
+
+[Link to Video Walkthrough](Develop/assets/example-video.mp4)
+
 
 ![Example Image](Develop/assets/ReadMeImage.png)
 
-Link to Video Walkthrough (Develop/assets/ReadMeImage.png) 
+
